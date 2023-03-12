@@ -46,7 +46,7 @@ function getData(storageKey) {
   try {
     return JSON.parse(localStorage.getItem(storageKey));
   } catch (error) {
-    console.log(`Missing data from key ${storageKey} in Local Storage`);
+    console.log(`Missing data from this key ${storageKey} in Local Storage`);
   }
 }
 
